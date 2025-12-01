@@ -19,7 +19,7 @@ fn main() {
     // let your_character = '';
 
     let your_character = 'F';
-    
+
     if your_character.is_alphabetic() {
         println!("Alphabetical!");
     } else if your_character.is_numeric() {
