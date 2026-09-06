@@ -25,7 +25,7 @@ mod tests {
     fn raw_value() {
         // TODO: Fix this test. How do you get the value contained in the
         // Option?
-        let ice_creams = maybe_ice_cream(12).or_else(|| Some(0)).unwrap();
+        let ice_creams = maybe_ice_cream(12).unwrap_or(0);
 
         assert_eq!(ice_creams, 5); // Don't change this line.
     }
